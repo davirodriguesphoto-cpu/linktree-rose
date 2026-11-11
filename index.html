@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Rose Coutinho • Saúde &amp; Estética Avançada</title>
 <meta name="description" content="Rose Coutinho, esteticista e cosmetóloga em Taubaté. Agende pelo WhatsApp, siga no Instagram e veja como chegar.">
-<meta name="theme-color" content="#fdf5f5">
+<meta name="theme-color" content="#e1a8a1">
 <meta property="og:title" content="Rose Coutinho • Saúde & Estética Avançada">
 <meta property="og:description" content="Agende pelo WhatsApp, siga no Instagram e veja como chegar.">
 <meta property="og:image" content="foto-rose.jpg">
@@ -15,8 +15,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#fdf5f5;--surface:#fffdfd;--tint:#f4dfe2;--fg:#3b2a2e;--muted:#7d6268;--line:#ecd5d9;
-  --accent:#b76e79;--btn:#a85d6a;--link:#96495a;--glass:rgba(255,253,253,.72);
+  --bg:#e1a8a1;--surface:#f3d3cf;--tint:#f0c9c4;--fg:#3b2a2e;--muted:#4f363c;--line:#c9877f;
+  --accent:#8a3f50;--btn:#8f4256;--link:#7a3347;--glass:rgba(255,246,244,.55);
   --display:'Josefin Sans',sans-serif;--body:'Mulish',system-ui,sans-serif;
 }
 :root[data-theme=dark]{
@@ -41,7 +41,7 @@ header span{width:40px}
 
 .hero{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/5;background:var(--tint);
   box-shadow:0 20px 50px -24px rgba(145,48,77,.45)}
-.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 8%}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%}
 .hero::after{content:"";position:absolute;inset:0;
   background:linear-gradient(to top,rgba(120,36,62,.96) 0%,rgba(145,48,77,.85) 28%,rgba(183,110,121,.4) 46%,rgba(183,110,121,0) 62%)}
 .hero .txt{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:22px 22px 24px;color:#fff;text-align:center}
@@ -155,7 +155,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);padding-top:6px}
   </header>
 
   <section class="hero">
-    <img src="foto-rose.jpg" alt="Rose Coutinho" width="1100" height="1650" fetchpriority="high">
+    <img src="foto-rose.jpg" alt="Rose Coutinho" width="1100" height="1375" fetchpriority="high">
     <div class="txt">
       <svg class="wm" viewBox="0 0 1207.54 320" role="img" aria-label="Rose Coutinho - saúde e estética avançada" fill="#fff">
         <defs>
@@ -206,7 +206,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);padding-top:6px}
 <script>
 (function(){
   var r=document.documentElement,m=document.querySelector('meta[name=theme-color]'),k='rose-tema';
-  function set(t){r.dataset.theme=t;m.content=t==='dark'?'#2a0e18':'#fdf5f5'}
+  function set(t){r.dataset.theme=t;m.content=t==='dark'?'#2a0e18':'#e1a8a1'}
   var s;try{s=localStorage.getItem(k)}catch(e){}
   set(s||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'));
   document.getElementById('tema').onclick=function(){
